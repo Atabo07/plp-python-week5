@@ -1,6 +1,6 @@
 # Week 5 Assignment – Password Generator & Your Own Module
 
-##  Project Overview
+## Project Overview
 
 This project is part of the **Power Learn Project (PLP) Python Programming** course.
 
@@ -18,7 +18,7 @@ The project demonstrates:
 
 ---
 
-##  Project Files
+## Project Files
 
 | File                    | Description                                                                       |
 | ----------------------- | --------------------------------------------------------------------------------- |
@@ -43,7 +43,7 @@ The program uses `random.choice()` to select random characters.
 
 The `make_password()` function has a default password length of **8 characters**, but it can also generate passwords of other lengths.
 
-### Example Code
+## Example Code
 
 ```python
 def make_password(length=8):
@@ -61,11 +61,11 @@ The program generates:
 * One 8-character password
 * One 12-character password
 
-### Password Generator – Run 1
+## Password Generator – Run 1
 
 ![Password Generator Run 1](screenshots/password_run1.png)
 
-### Password Generator – Run 2
+## Password Generator – Run 2
 
 ![Password Generator Run 2](screenshots/password_run2.png)
 
@@ -77,9 +77,9 @@ The passwords are randomly generated, so the results are different each time the
 
 For this part of the assignment, I created a module called `helpers.py`.
 
-The module contains two functions:
+The module contains two functions.
 
-### 1. `tables_needed()`
+## 1. `tables_needed()`
 
 This function calculates the number of tables required using `math.ceil()`.
 
@@ -100,7 +100,7 @@ returns:
 8
 ```
 
-### 2. `welcome()`
+## 2. `welcome()`
 
 This function creates a welcome message using the name provided.
 
@@ -129,7 +129,7 @@ Welcome to PLP, Amina!
 4
 ```
 
-### Main Program Output
+## Main Program Output
 
 ![Main Program Output](screenshots/main_output.png)
 
@@ -150,7 +150,7 @@ When `helpers.py` is run directly, it produces:
 3
 ```
 
-### Helpers Output
+## Helpers Output
 
 ![Helpers Output](screenshots/helpers_output.png)
 
@@ -158,7 +158,7 @@ When `helpers.py` is imported into `main.py`, the `3` is not printed because the
 
 ---
 
-#  Key Concepts Learned
+# Key Concepts Learned
 
 Through this assignment, I learned how to:
 
@@ -174,23 +174,23 @@ Through this assignment, I learned how to:
 
 ---
 
-# ▶️ How to Run the Programs
+# How to Run the Programs
 
-Open the terminal in the project folder and run:
+Open the terminal in the project folder and run the following commands.
 
-### Password Generator
+## Password Generator
 
 ```bash
 python password_generator.py
 ```
 
-### Main Program
+## Main Program
 
 ```bash
 python main.py
 ```
 
-### Helpers Module
+## Helpers Module
 
 ```bash
 python helpers.py
@@ -198,11 +198,7 @@ python helpers.py
 
 ---
 
-
-
-
-
-#  Screenshots
+# Screenshots
 
 All assignment screenshots are stored in the `screenshots` folder.
 
@@ -212,4 +208,6 @@ All assignment screenshots are stored in the `screenshots` folder.
 | `password_run2.png`  | Second password generator run |
 | `main_output.png`    | Output from `main.py`         |
 | `helpers_output.png` | Output from `helpers.py`      |
+
+---
 
